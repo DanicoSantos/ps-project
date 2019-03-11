@@ -79,7 +79,7 @@
 #banner-crsl .item > .container {
     /* positioning caption in the middle */
     position: absolute;
-    top: 70%;
+    top: 75%;
     width: 100%;
 }
 
@@ -88,6 +88,7 @@
     min-height: 100px;
     height: auto;
     width: 100%;
+    margin-bottom: 50px;
     padding: 25px;
     font-size: 3em;
 }
@@ -97,5 +98,36 @@
     height: auto;
     width: 100%;
     padding: 10px;
+    margin-top: 50px;
     font-size: 16pt;
+}
+#banner-crsl .carousel-control {
+    top: 45%;
+    bottom: auto;   
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+
+}
+
+#banner-crsl .left {
+    background-color: green;
+    background-image: none;
+    left: 5%;
+}
+#banner-crsl .carousel-control .glyphicon-chevron-left {
+    position: relative;
+    top: 45%;
+    left: 2%;
+}
+#banner-crsl .right {
+    background-color: blue;
+    background-image: none;
+    right: 5%;
+}
+#banner-crsl .carousel-control .glyphicon-chevron-right {
+    position: relative;
+    top: 45%;
+    right: 2%;
 }
