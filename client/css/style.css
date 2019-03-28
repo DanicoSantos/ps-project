@@ -6,6 +6,11 @@
     padding: 0;
     margin: 0;
 }
+#banner {
+    height: 100vh;
+    margin-bottom: 100px;
+
+}
 
 #banner-header {
     position: relative;
@@ -130,4 +135,22 @@
     position: relative;
     top: 45%;
     right: 2%;
+}
+
+/* Carousel indicators */
+#banner-crsl .carousel-indicators > .active {
+    background-color:greenyellow;
+}
+#about {
+    height: 500px;
+    width: 100%;
+}
+#about > h1 {
+    font-family: 'Unica One', cursive;
+    margin-bottom: 50px;
+}
+#about > p {
+    font-size: 1.5em;
+    margin: auto;
+    width: 50%;
 }
