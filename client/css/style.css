@@ -17,6 +17,7 @@
     z-index: 99999;
     background-color: transparent;
     padding: 0;
+    width: 100%;
     height: auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.801),transparent) ;
 }
