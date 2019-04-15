@@ -224,13 +224,12 @@ p {
     background-image: url('../img/crsl01.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 100px;
-
+    padding: 50px;
     width: 100%;
 }
 #tools > h1 {
     font-family: 'Unica One', cursive;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     font-weight: bold;
     font-size: 3.5em;
     text-shadow: -5px 10px 15px #000;
@@ -241,7 +240,7 @@ p {
     width: 80%;
 }
 #tools .row {
-    margin: 50px auto;
+    margin: 50px  auto;
     width: 80%;
 
 }
